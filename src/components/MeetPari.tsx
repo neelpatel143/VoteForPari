@@ -47,12 +47,12 @@ export function MeetPari() {
 
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-                <h4 className="text-royal font-bold text-xl mb-2">3+ Years</h4>
-                <p className="text-gray-500 text-sm">Leadership Experience</p>
+                <h4 className="text-royal font-bold text-xl mb-2">3+</h4>
+                <p className="text-gray-500 text-sm">Events Participation</p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
-                <h4 className="text-gold-dark font-bold text-xl mb-2">50+</h4>
-                <p className="text-gray-500 text-sm">Events Organized</p>
+                <h4 className="text-gold-dark font-bold text-xl mb-2">10+</h4>
+                <p className="text-gray-500 text-sm">Extra Co-Curricular Activities</p>
               </div>
             </div>
           </motion.div>
