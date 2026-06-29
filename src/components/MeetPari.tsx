@@ -1,6 +1,7 @@
 import { motion, useScroll, useTransform } from 'motion/react';
 import { useRef } from 'react';
 import { CheckCircle2, Star, Target, Zap } from 'lucide-react';
+import meetpariImg from "./img/pari1.jpeg";
 
 const timeline = [
   { year: "2023", title: "Debate Team Captain", desc: "Led the school team to regional finals.", icon: <Zap className="w-5 h-5" /> },
@@ -39,7 +40,7 @@ export function MeetPari() {
           <motion.div style={{ y }} className="space-y-8">
             <div className="relative group rounded-[2rem] overflow-hidden aspect-[4/3] bg-white shadow-xl shadow-royal/5">
               <img 
-                src="PARI KA PHOTO_______________________________________________________________.png" 
+                src={meetpariImg} 
                 alt="Pari at an event" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />

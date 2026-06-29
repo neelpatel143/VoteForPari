@@ -1,6 +1,7 @@
 import { motion, useScroll, useTransform } from 'motion/react';
 import { ChevronDown } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import pariImg from "./img/pari.png";
 
 export function Hero() {
   const { scrollY } = useScroll();
@@ -110,7 +111,7 @@ export function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-t from-royal/60 to-transparent z-10" />
               <img 
-                src="./img/pari.png" 
+                src={pariImg} 
                 alt="Pari Patel" 
                 className="object-cover w-full h-full mix-blend-multiply opacity-90 relative z-0"
               />

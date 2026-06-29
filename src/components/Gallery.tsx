@@ -1,13 +1,18 @@
 import { motion } from 'motion/react';
 import { useState } from 'react';
+import gI1 from "./img/1.jpeg";
+import gI2 from "./img/2.jpeg";
+import gI3 from "./img/3.jpeg";
+import gI4 from "./img/4.jpeg";
+
 
 const images = [
-  { src: "", alt: "Team discussion" },
-  { src: "", alt: "Presentation" },
-  { src: "", alt: "Group photo" },
-  { src: "", alt: "Planning session" },
-  { src: "", alt: "Speech" },
-  { src: "", alt: "Graduation" },
+  { src: gI1, alt: "Team discussion" },
+  { src: gI2, alt: "Presentation" },
+  { src: gI3, alt: "Group photo" },
+  { src: gI4, alt: "Planning session" },
+  { src: gI1, alt: "Speech" },
+  { src: gI2, alt: "Graduation" },
 ];
 
 export function Gallery() {
