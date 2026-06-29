@@ -4,6 +4,7 @@ import { CheckCircle2, Star, Target, Zap } from 'lucide-react';
 import meetpariImg from "./img/pari1.jpeg";
 
 const timeline = [
+  { year: "2023", title: "Vice Captain", desc: "Served Khurana Group.", icon: <Target className="w-5 h-5" /> },
   { year: "2026", title: "Head Girl Candidate", desc: "Ready to represent and elevate student voices.", icon: <Target className="w-5 h-5" /> },
 ];
 
