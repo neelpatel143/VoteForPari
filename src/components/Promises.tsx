@@ -5,7 +5,7 @@ import { BookOpen, Coffee, Megaphone, ShieldCheck } from 'lucide-react';
 const promises = [
   { icon: <Megaphone />, title: "Open Conversations", desc: "Any student can approach me with their ideas, concerns, or feedback at any time." },
   { icon: <Coffee />, title: "Improved Water Access", desc: "Ensuring all students have access to clean, refreshing water throughout the school day." },
-  { icon: <BookOpen />, title: "Managing AC Ventilation", desc: "Fixing AC Issues to ensure a comfortable learning environment." },
+  { icon: <BookOpen />, title: "Managing AIR Ventilation", desc: "Fixing AC Issues to ensure a comfortable learning environment." },
   { icon: <ShieldCheck />, title: "Basic Classroom Facilities", desc: "Ensuring all classrooms have the essential facilities needed for effective learning." },
 ];
 
