@@ -110,7 +110,7 @@ export function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-t from-royal/60 to-transparent z-10" />
               <img 
-                src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1000&auto=format&fit=crop" 
+                src="PARI KA PHOTO_______________________________________________________________.png" 
                 alt="Pari Patel" 
                 className="object-cover w-full h-full mix-blend-multiply opacity-90 relative z-0"
               />

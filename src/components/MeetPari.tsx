@@ -39,7 +39,7 @@ export function MeetPari() {
           <motion.div style={{ y }} className="space-y-8">
             <div className="relative group rounded-[2rem] overflow-hidden aspect-[4/3] bg-white shadow-xl shadow-royal/5">
               <img 
-                src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?q=80&w=1000&auto=format&fit=crop" 
+                src="PARI KA PHOTO_______________________________________________________________.png" 
                 alt="Pari at an event" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />

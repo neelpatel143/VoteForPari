@@ -2,12 +2,12 @@ import { motion } from 'motion/react';
 import { useState } from 'react';
 
 const images = [
-  { src: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop", alt: "Team discussion" },
-  { src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop", alt: "Presentation" },
-  { src: "https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=800&auto=format&fit=crop", alt: "Group photo" },
-  { src: "https://images.unsplash.com/photo-1515161318750-781d6122e367?q=80&w=800&auto=format&fit=crop", alt: "Planning session" },
-  { src: "https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&w=800&auto=format&fit=crop", alt: "Speech" },
-  { src: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=800&auto=format&fit=crop", alt: "Graduation" },
+  { src: "", alt: "Team discussion" },
+  { src: "", alt: "Presentation" },
+  { src: "", alt: "Group photo" },
+  { src: "", alt: "Planning session" },
+  { src: "", alt: "Speech" },
+  { src: "", alt: "Graduation" },
 ];
 
 export function Gallery() {
