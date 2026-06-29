@@ -4,10 +4,10 @@ import { MessageSquare, Users, Calendar, Trophy, Palette, Globe, Leaf } from 'lu
 
 const visions = [
   { id: 'comm', title: 'Better Communication', icon: <MessageSquare className="w-6 h-6" />, desc: 'An anonymous feedback system where every student can safely voice their concerns directly to the council.', color: 'bg-blue-100 text-blue-600' },
-  { id: 'voice', title: 'Student Voice', icon: <Users className="w-6 h-6" />, desc: 'Monthly town halls. No filters. Direct conversations about what matters most to our student body.', color: 'bg-purple-100 text-purple-600' },
-  { id: 'events', title: 'School Events', icon: <Calendar className="w-6 h-6" />, desc: 'Revamping the annual fest and introducing mini-events like cultural days and tech hackathons.', color: 'bg-pink-100 text-pink-600' },
+  { id: 'voice', title: 'Student Voice', icon: <Users className="w-6 h-6" />, desc: 'No filters. Direct conversations about what matters most to our student body.', color: 'bg-purple-100 text-purple-600' },
+  { id: 'events', title: 'School Events', icon: <Calendar className="w-6 h-6" />, desc: 'Revamping the annual fest and introducing mini-events like cultural days, etc.', color: 'bg-pink-100 text-pink-600' },
   { id: 'sports', title: 'Sports', icon: <Trophy className="w-6 h-6" />, desc: 'More inter-house tournaments and better funding allocation for our athletic teams.', color: 'bg-orange-100 text-orange-600' },
-  { id: 'creative', title: 'Creativity', icon: <Palette className="w-6 h-6" />, desc: 'Establishing a dedicated creative fund for student artists, musicians, and performers.', color: 'bg-rose-100 text-rose-600' },
+  { id: 'creative', title: 'Creativity', icon: <Palette className="w-6 h-6" />, desc: 'Establishing a dedicated creative group for student artists, musicians, and performers.', color: 'bg-rose-100 text-rose-600' },
   { id: 'campus', title: 'Clean Campus', icon: <Leaf className="w-6 h-6" />, desc: 'A sustainability initiative focusing on recycling, reducing plastic, and greening our spaces.', color: 'bg-green-100 text-green-600' },
 ];
 
