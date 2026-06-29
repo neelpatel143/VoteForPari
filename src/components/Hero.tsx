@@ -65,7 +65,7 @@ export function Hero() {
           >
             VOTE <br/>
             FOR <span className="text-gold italic font-serif font-light">
-              PARI.
+              PARI⚽
             </span>
           </motion.h1>
 
