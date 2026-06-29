@@ -1,0 +1,6 @@
+{
+  "name": "Pari Patel - Head Girl Campaign",
+  "description": "An interactive digital experience for Pari Patel's Head Girl election campaign.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
