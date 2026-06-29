@@ -3,10 +3,10 @@ import { useRef } from 'react';
 import { BookOpen, Coffee, Megaphone, ShieldCheck } from 'lucide-react';
 
 const promises = [
-  { icon: <Megaphone />, title: "Open Council Meetings", desc: "Every first Friday of the month, the student council will hold an open forum for anyone to attend and speak." },
-  { icon: <Coffee />, title: "Better Canteen Options", desc: "Collaborating with the administration to introduce healthier, more diverse, and affordable food choices." },
-  { icon: <BookOpen />, title: "Peer Tutoring Network", desc: "Establishing a structured, recognized peer-to-peer mentoring system to help students excel academically." },
-  { icon: <ShieldCheck />, title: "Mental Health Days", desc: "Pushing for recognized mental health awareness activities and 'no-homework' weekends once a term." },
+  { icon: <Megaphone />, title: "Open Conversations", desc: "Any student can approach me with their ideas, concerns, or feedback at any time." },
+  { icon: <Coffee />, title: "Improved Water Access", desc: "Ensuring all students have access to clean, refreshing water throughout the school day." },
+  { icon: <BookOpen />, title: "Managing AC Ventilation", desc: "Fixing AC Issues to ensure a comfortable learning environment." },
+  { icon: <ShieldCheck />, title: "Basic Classroom Facilities", desc: "Ensuring all classrooms have the essential facilities needed for effective learning." },
 ];
 
 export function Promises() {
