@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 
 // Set election date to 14 days from now for demo purposes
-const ELECTION_DATE = new Date();
-ELECTION_DATE.setDate(ELECTION_DATE.getDate() + 14);
+const ELECTION_DATE = new Date(2026, 5, 20, 0, 0, 0);
+// Months are 0-indexed: 5 = June
 
 export function Countdown() {
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
